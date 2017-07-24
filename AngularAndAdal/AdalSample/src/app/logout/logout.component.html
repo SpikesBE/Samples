@@ -1,0 +1,4 @@
+<p *ngIf="isAuthenticated">Signing out...</p>
+<p *ngIf="!isAuthenticated">
+  Signed out successfully. Click <a [routerLink]="['/login']">here</a> to log back in.
+</p>
